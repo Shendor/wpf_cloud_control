@@ -1,0 +1,136 @@
+﻿<Window x:Class="ElementsCloudTest.PanelsCloud"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cloud="clr-namespace:ElementsCloud;assembly=ElementsCloud"
+        Title="PanelsCloud" Height="300" Width="300" WindowState="Maximized">
+    <Grid>
+        <cloud:ElementsCloud x:Name="cloud">
+            <cloud:ElementsCloud.ElementsCollection>
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+                                <Label Content="Item 1" Margin="5,2,5,5" />
+                                <Label Content="Item 2" Margin="5,2,5,5" />
+                                <Label Content="Item 3" Margin="5,2,5,5" />
+                                <Label Content="Item 4" Margin="5,2,5,5" />
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1">
+                                <TextBox Margin="5,5,5,5" />
+                                <TextBox Margin="5,5,5,5" />
+                                <TextBox  Margin="5,5,5,5" />
+                                <TextBox Margin="5,5,5,5" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </cloud:ElementsCloudItem>
+
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+                                <Label Content="Item 1" Margin="5,2,5,5" />
+                                <Label Content="Item 2" Margin="5,2,5,5" />
+                                <Label Content="Item 3" Margin="5,2,5,5" />
+                                <Label Content="Item 4" Margin="5,2,5,5" />
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1">
+                                <TextBox Margin="5,5,5,5" />
+                                <TextBox Margin="5,5,5,5" />
+                                <TextBox  Margin="5,5,5,5" />
+                                <TextBox Margin="5,5,5,5" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </cloud:ElementsCloudItem>
+
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.RowSpan="2" Content="Rotate direction" Margin="5,2,5,5" />
+                            <StackPanel Grid.Column="0" Grid.Row="1">
+                                <Label Content="X" Margin="5,2,5,5" />
+                                <Label  Content="Y" Margin="5,2,5,5" />
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1" Grid.Row="1">
+                                <TextBox x:Name="xPoint" Text="100" Margin="5,5,5,5" PreviewTextInput="Text_PreviewTextInput"/>
+                                <TextBox x:Name="yPoint" Text="0" Margin="5,5,5,5" PreviewTextInput="Text_PreviewTextInput"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </cloud:ElementsCloudItem>
+
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+
+                            <Label VerticalAlignment="Center" Content="Scale ratio: " Grid.Column="0" />
+                            <TextBox x:Name="scale" Text="0,09" VerticalAlignment="Center" Margin="5,5,5,5" Grid.Column="1" PreviewTextInput="Text_PreviewTextInput"/>
+                        </Grid>
+                    </Border>
+                </cloud:ElementsCloudItem>
+
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+
+                            <Label VerticalAlignment="Center" Content="Opacity ratio: " Grid.Column="0" />
+                            <TextBox x:Name="opacity" Text="1,3" VerticalAlignment="Center" Margin="5,5,5,5" Grid.Column="1" PreviewTextInput="Text_PreviewTextInput"/>
+                        </Grid>
+                    </Border>
+                </cloud:ElementsCloudItem>
+
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <Button x:Name="stop" Click="Button_Click">Stop</Button>
+                    </Border>
+                </cloud:ElementsCloudItem>
+
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <Button x:Name="run" Click="Button_Click">Run</Button>
+                    </Border>
+                </cloud:ElementsCloudItem>
+
+                <cloud:ElementsCloudItem Height="150" Width="150">
+                    <Border BorderBrush="Black" BorderThickness="1" Background="Orange">
+                        <StackPanel>
+                            <RadioButton x:Name="isManual" Content="Manual rotation" IsChecked="False" Click="RadioButtons_Click"/>
+                            <RadioButton x:Name="isMouse" Content="Mouse rotation" IsChecked="True" Click="RadioButtons_Click"/>
+                        </StackPanel>
+                    </Border>
+                </cloud:ElementsCloudItem>
+            </cloud:ElementsCloud.ElementsCollection>
+        </cloud:ElementsCloud>
+    </Grid>
+</Window>

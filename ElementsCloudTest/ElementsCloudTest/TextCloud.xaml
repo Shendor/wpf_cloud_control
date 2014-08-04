@@ -1,0 +1,87 @@
+﻿<Window x:Class="ElementsCloudTest.TextCloud"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cloud="clr-namespace:ElementsCloud;assembly=ElementsCloud"
+        Title="TextCloud" Height="300" Width="300" Background="Black" WindowState="Maximized">
+    <Grid>
+        <cloud:ElementsCloud x:Name="cloud">
+            <cloud:ElementsCloud.ElementsCollection>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 1" Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 2"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 3"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 4" Style="{StaticResource text}" />
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 5"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 6"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 7"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 8"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 9"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 10"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 11"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 12"  Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 13" Style="{StaticResource text}"/>
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 14" Style="{StaticResource text}" />
+                    </Border>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem>
+                    <Border Style="{StaticResource borders}">
+                        <TextBlock Text="Item 15" Style="{StaticResource text}" />
+                    </Border>
+                </cloud:ElementsCloudItem>
+            </cloud:ElementsCloud.ElementsCollection>
+        </cloud:ElementsCloud>
+    </Grid>
+</Window>

@@ -1,0 +1,92 @@
+﻿<Window x:Class="ElementsCloudTest.ButtonsCloud"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cloud="clr-namespace:ElementsCloud;assembly=ElementsCloud"
+        Title="ButtonsCloud" Height="300" Width="300" WindowState="Maximized" Background="Black">
+    <Grid>
+        <cloud:ElementsCloud x:Name="cloud" >
+            <cloud:ElementsCloud.ElementsCollection>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button>
+                        <Image Source="/ElementsCloudTest;component/Images/Animation.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Check.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/document.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Find.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Info.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/OK.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Open.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Refresh.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Select.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Settings.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Animation.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Check.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/document.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Find.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/Info.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+                <cloud:ElementsCloudItem Height="60" Width="60">
+                    <Button >
+                        <Image Source="/ElementsCloudTest;component/Images/OK.png" />
+                    </Button>
+                </cloud:ElementsCloudItem>
+            </cloud:ElementsCloud.ElementsCollection>
+        </cloud:ElementsCloud>
+    </Grid>
+</Window>
