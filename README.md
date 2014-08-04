@@ -1,0 +1,1 @@
+I suppose everyone knows such a thing as Tags Cloud =). Usually, you can see it on some kinds of web-sites, where this control represents a container with certain quantity of links and when you enter a mouse cursor on it, these links are moved by a virtual ellipsoid (or sphere) while you move the mouse.
